@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:400,600&display=swap');
 
 :root {
-  --border-color: #144fc6;
-  --fill-color: #6ab3f8;
+  --border-color: #2d2424;
+  --fill-color: #5c3d2e;
 }
 
 * {
   box-sizing: border-box;
 }
 body {
-  background-color: #3494e4;
+  background-color: #e0c097;
   color: #fff;
   font-family: 'Montserrat', sans-serif;
   display: flex;
@@ -51,7 +51,7 @@ h3 {
 .cups {
   display: flex;
   flex-wrap: wrap;
-  width: 280px;
+  width: 320px;
   align-items: center;
   justify-content: center;
 }
@@ -59,7 +59,6 @@ h3 {
   background-color: var(--fill-color);
   color: #fff;
 }
-
 .remained {
   display: flex;
   align-items: center;
